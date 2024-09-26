@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Landing-Page</title>
+</head>
+      <!-- Menu Superior-->
+<body>
+    <div class="menuSuperior" title="">
+        <a href="https://www.escoladnc.com.br/"><img class="logo" src="image/logo.svg" alt="" srcset=""> </a>
+    
+      <h1 class="tituloMenu" title="">
+          Dê os primeiros passos da <br> Sua Carreira em Tecnologia
+      </h1>
+          <p class="textoMenu" title="">
+             inscreva-se no curso gratuito de introdução á <br>Tecnologia da DNC School e aprenda os principais <br> Fundamentos para construir experiências Efetivas.   
+          </p>
+    </div>
+      <!-- Menu Informativo-->
+    <div class="menuInformativo" title="">
+         
+         <p class="textoInfo"><img src="icons/certificado.svg" alt="" srcset="" class="icone" id="certificado"> Certificado de conclusão </p>
+         <p class="textoInfo"><img src="icons/relogio.svg" alt="" srcset="" class="icone" id="relogio"  > 4 horas de conteúdo </p>
+         <p class="textoInfo"><img src="icons/camera.svg" alt="" srcset="" class="icone" id="camera"> Aulas online gravadas </p>
+    </div>
+    <!-- Seção Video-->
+    <div class="secaoVideo">
+        <iframe width="502" height="288" src="https://www.youtube.com/embed/_gOO9wnIE3s" title="Depoimento Aluno DNC - Formação em Projetos | Black November 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h1 class="tituloVideo">
+                Aprenda com especialistas e <br> comece seu primeiro projeto <br><br>
+            </h1>
+            <p class="textoVideo">
+                Conheça o processo de desenvolvimento e <br>entenda como utilizar os principais <br>  métodos e  ferramentas da área <br>para resolver problemas complexos. <br><br>
+    
+              Conquiste seu certificado e desenvolva <br> um projeto prático para <br> aplicar seus conhecimentos.
+            </p>
+        </div>
+        
+    </div>
+    <div class="titulo-card">
+       <h1> Mais de 500 alunos já iniciaram seus estudos <h1> 
+        <div id="cards-img">
+            <img id="seta-esquerda" class="seta" onclick = "rolarparaEsquerda()" src="icons/seta-esquerda.svg" alt="">
+            <img id="samantha"  src="cards/samantha.svg" alt="" srcset="">
+            <img id="leonardo"  src="cards/leonardo.svg" alt="" srcset="">
+            <img id="bruna" src="cards/bruna.svg" alt="" srcset="">
+            <img id="seta-direita" class="seta" onclick = "rolarparaDireita()" src="icons/seta-direita.svg" alt="">
+        </div>
+        
+    </div>
+    
+    <!-- Formulario--> 
+     <div id="formulario">
+        <h1 id="texto-formulario"> Comece agora mesmo e dê o próximo passo da sua carreira </h1>
+        <form action="https://api.sheetmonkey.io/form/tRcLg9MvyC6QGJdQ9abWFt" method ="post" >
+            <input type="text" placeholder="Nome" name = "name" required> <br>
+            <input type="email"placeholder="Email" name = "Email" required> <br>
+            <input type="number" placeholder="telefone" name = "phone"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">
+                Acesse a Ementa Gratis
+            </button>
+        </form>
+     </div>
+
+    
+    <script src="home.js"></script>
+</body>
+</html>
